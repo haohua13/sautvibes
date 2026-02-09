@@ -1,7 +1,8 @@
 #! /usr/bin/env python3
 import numpy as np
-
-# This script is taken from https://github.com/lukovicaleksa/grid-mapping-in-ROS/blob/main/scripts/bresenham.py
+# This script is an implementation of the Bresenham's Line Algorithm
+# from https://github.com/encukou/bresenham and
+# https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
 
 
 def bresenham(Map, x1, y1, x2, y2):
